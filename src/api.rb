@@ -8,7 +8,7 @@ require 'aws-xray-sdk/lambda'
 
 def list_task(event:,context:)
   begin
-    input = ListTasksInput.new(event)
+    input = ListTasksInput.new(new)
     unless input.valid?
       error = input.error
       return {
