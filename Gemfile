@@ -10,4 +10,4 @@ group :test do
   gem 'aws-sdk-cloudformation', '~> 1'
 end
 
-ruby '~> 2.7.0'
+ruby '~> 2.0.0'
